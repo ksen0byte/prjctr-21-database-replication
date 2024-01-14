@@ -1,0 +1,1 @@
+ docker exec mysql_master sh -c "export MYSQL_PWD=111; mysql -u root mydb -e 'create table code(low int, mid int, high int, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP)'"
